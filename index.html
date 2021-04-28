@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photos of the World</title>
+
+    <!-- goggle fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,600;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- css style -->
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body data-barba="wrapper">
+    <header class="nav-header">
+        <h1><a href="./index.html" id="logo">Pixils</a></h1>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+        </div>
+    </header>
+    <main data-barba="container" data-barba-namespace="home">
+        <section class="mountain slide">
+            <div class="hero-img">
+                <img src="./img/forest.png" alt="forest image">
+
+            </div>
+            <div class="reveal-img"></div>
+            <div class="hero-desc">
+                <div class="title">
+                    <h2>
+                        Adventure at your <span class="mountain-span">fingertips.</span>
+                    </h2>
+                    <div class="title-swipe t-swipe1"></div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error adipisci ducimus, quaerat cumque
+                    distinctio blanditiis architecto placeat neque voluptatibus tempora.
+                </p>
+                <a class="explore mountain-exp">Explore</a>
+                <div class="reveal-text"></div>
+            </div>
+        </section>
+
+        <section class="hike slide">
+            <div class="hero-img">
+                <img src="./img/sea.jpg" alt="sea image">
+
+            </div>
+            <div class="reveal-img"></div>
+            <div class="hero-desc">
+                <div class="title">
+                    <h2>
+                        Freedom at your <span class="hike-span">fingertips.</span>
+                    </h2>
+                    <div class="title-swipe t-swipe2"></div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error adipisci ducimus, quaerat cumque
+                    distinctio blanditiis architecto placeat neque voluptatibus tempora.
+                </p>
+                <a class="explore hike-exp">Explore</a>
+                <div class="reveal-text"></div>
+            </div>
+        </section>
+
+        <section class="fashion slide">
+            <div class="hero-img">
+                <img src="./img/fashion.png" alt="fashion image">
+
+            </div>
+            <div class="reveal-img"></div>
+            <div class="hero-desc">
+                <div class="title">
+                    <h2>
+                        Fashion at your <span class="fashion-span">fingertips.</span>
+                    </h2>
+                    <div class="title-swipe t-swipe3"></div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error adipisci ducimus, quaerat cumque
+                    distinctio blanditiis architecto placeat neque voluptatibus tempora.
+                </p>
+                <a href="./fashion/index.html" class="explore fashion-exp">Explore</a>
+                <div class="reveal-text"></div>
+            </div>
+        </section>
+    </main>
+    <nav class="nav-bar">
+        <!--pagina navegacao-->
+        <ul class="nav-links">
+            <h3>Twitter</h3>
+            <h3>Youtube</h3>
+            <h3>Instagram</h3>
+        </ul>
+        <div class="contact">
+            <h2>Stay in touch.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, nisi? Lorem ipsum dolor, sit amet
+                consectetur
+                adipisicing elit. Aut, nemo!
+            </p>
+        </div>
+    </nav>
+    <div class="cursor">
+        <span class="cursor-text"></span>
+    </div>
+    <div class="swipe swipe1"></div>
+    <div class="swipe swipe2"></div>
+    <div class="swipe swipe3"></div>
+
+
+
+    <!-- BARBA js  -->
+    <script src="https://unpkg.com/@barba/core"></script>
+
+    <!-- SCROLL MAGIC  -->
+    <!-- SCROLL MAGIC MIN  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"
+        integrity="sha512-8E3KZoPoZCD+1dgfqhPbejQBnQfBXe8FuwL4z/c8sTrgeDMFEnoyTlH3obB4/fV+6Sg0a0XF+L/6xS4Xx1fUEg=="
+        crossorigin="anonymous">
+    </script>
+
+    <!-- ADD INDICATORS  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/debug.addIndicators.min.js"
+        integrity="sha512-RvUydNGlqYJapy0t4AH8hDv/It+zKsv4wOQGb+iOnEfa6NnF2fzjXgRy+FDjSpMfC3sjokNUzsfYZaZ8QAwIxg=="
+        crossorigin="anonymous">
+    </script>
+
+    <!-- GSAPMIN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/animation.gsap.min.js"
+        integrity="sha512-5/OHwmQzDSBS0Ous4/hlYoWLHd06/d2r7LdKZQVBXOA6PvOqWVXtdboiLTU7lQTGyVoKVTNkwi0ol4gHGlw5ww=="
+        crossorigin="anonymous"></script>
+
+    <!-- GSAP green sock  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"
+        integrity="sha512-cdV6j5t5o24hkSciVrb8Ki6FveC2SgwGfLE31+ZQRHAeSRxYhAQskLkq3dLm8ZcWe1N3vBOEYmmbhzf7NTtFFQ=="
+        crossorigin="anonymous"></script>
+
+
+    <script src="javascript/app.js"></script>
+</body>
+
+</html>
